@@ -1,0 +1,35 @@
+@import "reset";
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 48px;
+    display: flex;
+    position: relative;
+    
+    &__logo {
+        width: 208px;
+        position: absolute;
+        left: 0;
+    }
+
+    &__menu {
+        position: absolute;
+        height: 48px;
+        right: 0;
+        vertical-align: middle;
+        display: table;
+        
+        li {
+            display: table-cell;
+            vertical-align: middle;
+            
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
